@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     ].flatten
   s.requirements << "PostgreSQL server"
   s.add_runtime_dependency "pg", ">= 0.17.0"
-  s.add_runtime_dependency "eventmachine", "~> 1.0.0"
+  s.add_runtime_dependency "eventmachine", ">= 1.0.0"
   s.add_development_dependency "rspec", "~> 2.14"
   s.add_development_dependency "em-synchrony", "~> 1.0.0"
   s.add_development_dependency "coveralls", ">= 0.7.0"
