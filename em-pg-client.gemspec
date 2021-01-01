@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir.glob("spec/**/*")
   s.rdoc_options << "--title" << "em-pg-client" <<
     "--main" << "README.md"
-  s.has_rdoc = true
   s.extra_rdoc_files = [
       files.grep(/^benchmarks\/.*\.rb$/),
       "README.md", "BENCHMARKS.md", "LICENSE", "HISTORY.md"
